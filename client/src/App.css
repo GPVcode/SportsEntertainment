@@ -1,0 +1,66 @@
+/* CSS Reset */
+* {
+
+  box-sizing: border-box;
+}
+html{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  min-width: 300px
+}
+
+.home-container{
+  display: flex;
+}
+
+.left,
+.middle,
+.right {
+  flex: 4;
+  background-color: rgb(255, 255, 255);
+}
+
+.left{
+  display: flex;
+}
+
+.middle {
+  flex: 8; /* 70% of the available space */
+  text-align: center; /* Optional: Center the content in the middle section */
+}
+
+/* Media Queries */
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 575px) {
+  /* Add styles for extra small devices here */
+}
+
+/* Small Devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* Add styles for small devices here */
+}
+
+/* Medium Devices (desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Add styles for medium devices here */
+}
+
+/* Large Devices (large desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Add styles for large devices here */
+}
+
+/* Extra Large Devices (extra large desktops) */
+@media only screen and (min-width: 1200px) {
+  /* Add styles for extra large devices here */
+}

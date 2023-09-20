@@ -1,0 +1,202 @@
+.navbar-header{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.navbar{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid .5px lightgray;
+}
+
+.navbar-left,
+.navbar-middle,
+.navbar-right {
+flex: 1;
+}
+
+.navbar-middle {
+flex: 7; /* 70% of the available space */
+text-align: center; /* Optional: Center the content in the middle section */
+}
+
+.navbar-left{
+    display: flex;
+    justify-content: flex-start;
+    gap: .5rem;
+    align-items: center;
+}
+
+.hamburger-icon{
+    font-size: 19px;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.logo-name{
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(226, 226, 226);
+    border-radius: 999px;
+}
+
+.logo-image{
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(226, 226, 226);
+    border-radius: 999px;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    align-items: center;
+}
+
+.login{
+    padding: 10px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    border-radius: 999px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #9e9e9e;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+.dropdown-btn:hover {
+  background-color: #9e9e9e;
+  color: rgb(226, 226, 226);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 0;
+  border-radius: 4px;
+  min-width: 200px;
+  padding: 3px 0px;
+}
+
+.dropdown-content a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px 10px;
+}
+
+.dropdown-content a:hover {
+  background-color: #919191;
+  color: #555;
+}
+  
+/* Hamburger */
+.hamburger-icon{
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 999px;
+}
+.hamburger-icon:hover{
+    background-color: #9e9e9e;
+    color: rgb(226, 226, 226);
+}
+
+.hamburger-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0;
+  border-radius: 4px;
+  min-width: 200px;
+  padding: 3px 0px;
+}
+
+.hamburger-dropdown a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+}
+
+.show{
+  display: block;
+}
+
+.home-btn{
+    border-bottom: solid .5px lightgray;
+}
+
+
+/* Media Queries */
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 575px) {
+    /* Add styles for extra small devices here */
+  }
+  
+  /* Small Devices (tablets) */
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Add styles for small devices here */
+  }
+  
+  /* Medium Devices (desktops) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add styles for medium devices here */
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .logo-name {
+      display: none;
+    }
+  }
+
+  /* Large Devices (large desktops) */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Add styles for large devices here */
+  }
+  
+  /* Extra Large Devices (extra large desktops) */
+  @media only screen and (min-width: 1200px) {
+    .hamburger-icon {
+        display: none; 
+      }
+    
+  }
+  

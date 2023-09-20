@@ -1,0 +1,25 @@
+.sidebar-container{
+    border-right: solid 1px lightgray;
+    flex-grow: 1;
+    padding-left: 80px;
+}
+
+.sidebar-default, .promotions{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid .5px lightgray;
+    padding: 10px;
+    margin: 0 10px;
+
+}
+
+.sidebar-btn{
+    font-size: large;
+    padding: 15px 30px;
+    transition: .3s ease-out;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.sidebar-btn:hover{
+    background-color: rgb(231, 231, 231);
+}
