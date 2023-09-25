@@ -1,4 +1,5 @@
 .sidebar-container{
+    display: none;
     border-right: solid 1px lightgray;
     flex-grow: 1;
     padding-left: 80px;
@@ -10,7 +11,6 @@
     border-bottom: solid .5px lightgray;
     padding: 10px;
     margin: 0 10px;
-
 }
 
 .sidebar-btn{
@@ -23,3 +23,64 @@
 .sidebar-btn:hover{
     background-color: rgb(231, 231, 231);
 }
+
+.sidebar-title{
+    padding: 18px 8px 8px;
+}
+
+
+/* Media Queries */
+/* Extra Small Devices (phones) */
+@media only screen and (max-width: 575px) {
+    /* Add styles for extra small devices here */
+  }
+  
+  /* Small Devices (tablets) */
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* Add styles for small devices here */
+  }
+  
+  /* Medium Devices (desktops) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add styles for medium devices here */
+  }
+  
+  /* Large Devices (large desktops) */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Add styles for large devices here */
+  }
+  
+  /* Extra Large Devices (extra large desktops) */
+  @media only screen and (min-width: 1200px) {
+    .sidebar-container{
+        display: block;
+        border-right: solid 1px lightgray;
+        flex-grow: 1;
+        padding-left: 80px;
+    }
+    
+    .sidebar-default, .promotions{
+        display: flex;
+        flex-direction: column;
+        border-bottom: solid .5px lightgray;
+        padding: 10px;
+        margin: 0 10px;
+    
+    }
+    
+    .sidebar-btn{
+        font-size: large;
+        padding: 15px 30px;
+        transition: .3s ease-out;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .sidebar-btn:hover{
+        background-color: rgb(231, 231, 231);
+    }
+    
+    .sidebar-title{
+        padding: 18px 8px 8px;
+    }
+  }
+  

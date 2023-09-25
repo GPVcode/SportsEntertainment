@@ -1,11 +1,11 @@
 import React from 'react'
 
-const MatchCard = () => {
+const threadComponent = () => {
   return (
     <div>
-      adsfdsafdsf
+      
     </div>
   )
 }
 
-export default MatchCard
+export default threadComponent

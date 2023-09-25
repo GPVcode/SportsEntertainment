@@ -18,7 +18,7 @@ const SideBar = () => {
       </div>
        
       <div className="promotions">
-        <span>Promotions</span>
+        <span className='sidebar-title'>Promotions</span>
 
         <Link to="/wwe" className="sidebar-btn">Logo WWE</Link>
         <a href="/aew" className="sidebar-btn">Logo AEW</a>

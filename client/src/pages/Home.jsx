@@ -1,5 +1,6 @@
 import React from 'react'
 import SideBar from './components/sidebar/SideBar';
+import MatchList from './components/matches/MatchList.jsx';
 import "../App.css"
 
 const Home = () => {
@@ -9,8 +10,7 @@ const Home = () => {
         <SideBar />
       </div>
       <div className="middle">
-        {/* Middle Content here */}
-        hellp
+        < MatchList />
       </div>
       <div className="right">
         {/* Right content here */}
