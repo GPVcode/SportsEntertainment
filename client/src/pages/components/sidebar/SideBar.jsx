@@ -12,7 +12,7 @@ const SideBar = () => {
   return (
    <div className='sidebar-container'>
       <div className="sidebar-default" onClick={handleHomeClick}>
-        <Link to="/home" className="sidebar-btn">
+        <Link to="/" className="sidebar-btn">
           <FontAwesomeIcon icon={faHome} /> Home
         </Link>
       </div>

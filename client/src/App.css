@@ -19,6 +19,10 @@ body {
   min-width: 300px
 }
 
+a{
+  text-decoration: none;
+}
+
 .home-container{
   display: flex;
 }
@@ -42,6 +46,19 @@ body {
 .right{
   background-color: rgb(250, 250, 250);
 }
+
+a.event {
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+  padding: 15px;
+}
+
+span.event-header {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Media Queries */
 /* Extra Small Devices (phones) */
 @media only screen and (max-width: 575px) {

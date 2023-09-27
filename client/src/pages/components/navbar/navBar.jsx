@@ -50,7 +50,7 @@ const NavBar = () => {
               </div>
             )}
           </div>
-          <div className="logo-image">Logo</div>
+          <div className="logo-image"><a href="/" className='navLogo'>Logo</a></div>
           <div className="logo-name">Company</div>
         </div>
         <div className="navbar-middle">Search bar here</div>

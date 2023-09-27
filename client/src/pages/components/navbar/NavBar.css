@@ -172,6 +172,9 @@ text-align: center; /* Optional: Center the content in the middle section */
     border-bottom: solid .5px lightgray;
 }
 
+.navLogo{
+  color: rgb(226, 226, 226);
+}
 
 /* Media Queries */
 /* Extra Small Devices (phones) */
